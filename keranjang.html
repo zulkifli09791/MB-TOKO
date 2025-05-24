@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MB TOKO - Keranjang & Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MB TOKO</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="kategori.html">Kategori</a>
+      <a href="keranjang.html">Keranjang</a>
+      <a href="login.html">Login</a>
+      <a href="riwayat.html">Riwayat</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Keranjang Belanja</h2>
+    <div id="keranjang-list">
+      <!-- Daftar produk di keranjang -->
+    </div>
+
+    <h3>Total: <span id="total-harga">Rp0</span></h3>
+
+    <h2>Checkout</h2>
+    <form id="checkout-form">
+      <label>Nama Lengkap:<br />
+        <input type="text" name="nama" required />
+      </label><br />
+      <label>Alamat:<br />
+        <textarea name="alamat" required></textarea>
+      </label><br />
+      <label>No. WhatsApp:<br />
+        <input type="tel" name="wa" required />
+      </label><br />
+      <button type="submit">Pesan via WhatsApp</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 MB TOKO | Fashion Online</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
